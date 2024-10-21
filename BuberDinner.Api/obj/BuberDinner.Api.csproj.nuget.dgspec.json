@@ -1,0 +1,294 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jonathanthamrin/Desktop/CleanArchitectureDDD/BuberDinner/BuberDinner.Api/BuberDinner.Api.csproj": {}
+  },
+  "projects": {
+    "/Users/jonathanthamrin/Desktop/CleanArchitectureDDD/BuberDinner/BuberDinner.Api/BuberDinner.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jonathanthamrin/Desktop/CleanArchitectureDDD/BuberDinner/BuberDinner.Api/BuberDinner.Api.csproj",
+        "projectName": "BuberDinner.Api",
+        "projectPath": "/Users/jonathanthamrin/Desktop/CleanArchitectureDDD/BuberDinner/BuberDinner.Api/BuberDinner.Api.csproj",
+        "packagesPath": "/Users/jonathanthamrin/.nuget/packages/",
+        "outputPath": "/Users/jonathanthamrin/Desktop/CleanArchitectureDDD/BuberDinner/BuberDinner.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jonathanthamrin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/jonathanthamrin/Desktop/CleanArchitectureDDD/BuberDinner/BuberDinner.Application/BuberDinner.Application.csproj": {
+                "projectPath": "/Users/jonathanthamrin/Desktop/CleanArchitectureDDD/BuberDinner/BuberDinner.Application/BuberDinner.Application.csproj"
+              },
+              "/Users/jonathanthamrin/Desktop/CleanArchitectureDDD/BuberDinner/BuberDinner.Contracts/BuberDinner.Contracts.csproj": {
+                "projectPath": "/Users/jonathanthamrin/Desktop/CleanArchitectureDDD/BuberDinner/BuberDinner.Contracts/BuberDinner.Contracts.csproj"
+              },
+              "/Users/jonathanthamrin/Desktop/CleanArchitectureDDD/BuberDinner/BuberDinner.Infrastructure/BuberDinner.Infrastructure.csproj": {
+                "projectPath": "/Users/jonathanthamrin/Desktop/CleanArchitectureDDD/BuberDinner/BuberDinner.Infrastructure/BuberDinner.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.424/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jonathanthamrin/Desktop/CleanArchitectureDDD/BuberDinner/BuberDinner.Application/BuberDinner.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jonathanthamrin/Desktop/CleanArchitectureDDD/BuberDinner/BuberDinner.Application/BuberDinner.Application.csproj",
+        "projectName": "BuberDinner.Application",
+        "projectPath": "/Users/jonathanthamrin/Desktop/CleanArchitectureDDD/BuberDinner/BuberDinner.Application/BuberDinner.Application.csproj",
+        "packagesPath": "/Users/jonathanthamrin/.nuget/packages/",
+        "outputPath": "/Users/jonathanthamrin/Desktop/CleanArchitectureDDD/BuberDinner/BuberDinner.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jonathanthamrin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/jonathanthamrin/Desktop/CleanArchitectureDDD/BuberDinner/BuberDinner.Domain/BuberDinner.Domain.csproj": {
+                "projectPath": "/Users/jonathanthamrin/Desktop/CleanArchitectureDDD/BuberDinner/BuberDinner.Domain/BuberDinner.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.424/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jonathanthamrin/Desktop/CleanArchitectureDDD/BuberDinner/BuberDinner.Contracts/BuberDinner.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jonathanthamrin/Desktop/CleanArchitectureDDD/BuberDinner/BuberDinner.Contracts/BuberDinner.Contracts.csproj",
+        "projectName": "BuberDinner.Contracts",
+        "projectPath": "/Users/jonathanthamrin/Desktop/CleanArchitectureDDD/BuberDinner/BuberDinner.Contracts/BuberDinner.Contracts.csproj",
+        "packagesPath": "/Users/jonathanthamrin/.nuget/packages/",
+        "outputPath": "/Users/jonathanthamrin/Desktop/CleanArchitectureDDD/BuberDinner/BuberDinner.Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jonathanthamrin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.424/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jonathanthamrin/Desktop/CleanArchitectureDDD/BuberDinner/BuberDinner.Domain/BuberDinner.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jonathanthamrin/Desktop/CleanArchitectureDDD/BuberDinner/BuberDinner.Domain/BuberDinner.Domain.csproj",
+        "projectName": "BuberDinner.Domain",
+        "projectPath": "/Users/jonathanthamrin/Desktop/CleanArchitectureDDD/BuberDinner/BuberDinner.Domain/BuberDinner.Domain.csproj",
+        "packagesPath": "/Users/jonathanthamrin/.nuget/packages/",
+        "outputPath": "/Users/jonathanthamrin/Desktop/CleanArchitectureDDD/BuberDinner/BuberDinner.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jonathanthamrin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.424/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jonathanthamrin/Desktop/CleanArchitectureDDD/BuberDinner/BuberDinner.Infrastructure/BuberDinner.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jonathanthamrin/Desktop/CleanArchitectureDDD/BuberDinner/BuberDinner.Infrastructure/BuberDinner.Infrastructure.csproj",
+        "projectName": "BuberDinner.Infrastructure",
+        "projectPath": "/Users/jonathanthamrin/Desktop/CleanArchitectureDDD/BuberDinner/BuberDinner.Infrastructure/BuberDinner.Infrastructure.csproj",
+        "packagesPath": "/Users/jonathanthamrin/.nuget/packages/",
+        "outputPath": "/Users/jonathanthamrin/Desktop/CleanArchitectureDDD/BuberDinner/BuberDinner.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jonathanthamrin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/jonathanthamrin/Desktop/CleanArchitectureDDD/BuberDinner/BuberDinner.Application/BuberDinner.Application.csproj": {
+                "projectPath": "/Users/jonathanthamrin/Desktop/CleanArchitectureDDD/BuberDinner/BuberDinner.Application/BuberDinner.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.424/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
